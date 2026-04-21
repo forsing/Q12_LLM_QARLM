@@ -61,7 +61,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 ALPHA = 1.0
@@ -262,7 +262,7 @@ if __name__ == "__main__":
 Q12 LLM (QARLM — Quantum Autoregressive LM): CSV: /data/loto7hh_4600_k31.csv
 redova: 4600 | seed: 39 | alpha: 1.0
 BEST hparam: nq= 5 | L (slojeva): 2 | cos(bias@∅, freq_csv): 0.872039
-predikcija NEXT: (7, 8, 13, 14, 19, 22, 27)
+predikcija NEXT: (7, 8, x, y, z, 22, 27)
 """
 
 
